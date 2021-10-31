@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249E6FB1254B1991002267C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FB0254B1991002267C0 /* AppDelegate.swift */; };
+		249E6FB5254B1991002267C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FB4254B1991002267C0 /* ViewController.swift */; };
+		249E6FBB254B1991002267C0 /* MathForKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FB9254B1991002267C0 /* MathForKids.xcdatamodeld */; };
+		249E6FBD254B1998002267C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249E6FBC254B1998002267C0 /* Assets.xcassets */; };
+		249E6FC0254B1998002267C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E6FBE254B1998002267C0 /* LaunchScreen.storyboard */; };
+		249E6FCB254B1999002267C0 /* MathForKidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FCA254B1999002267C0 /* MathForKidsTests.swift */; };
+		249E6FD6254B1999002267C0 /* MathForKidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FD5254B1999002267C0 /* MathForKidsUITests.swift */; };
+		249E6FEC254F0419002267C0 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FEB254F0419002267C0 /* LoginVc.swift */; };
+		249E6FED254F0419002267C0 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FEB254F0419002267C0 /* LoginVc.swift */; };
+		249E6FEE254F0419002267C0 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FEB254F0419002267C0 /* LoginVc.swift */; };
+		249E6FF0254F0428002267C0 /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FEF254F0428002267C0 /* SignUpVc.swift */; };
+		249E6FF1254F0428002267C0 /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FEF254F0428002267C0 /* SignUpVc.swift */; };
+		249E6FF2254F0428002267C0 /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FEF254F0428002267C0 /* SignUpVc.swift */; };
+		249E6FF6254F0450002267C0 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FF5254F0450002267C0 /* HomeVc.swift */; };
+		249E6FF7254F0450002267C0 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FF5254F0450002267C0 /* HomeVc.swift */; };
+		249E6FF8254F0450002267C0 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FF5254F0450002267C0 /* HomeVc.swift */; };
+		249E6FFA254F0494002267C0 /* LevelsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FF9254F0494002267C0 /* LevelsVc.swift */; };
+		249E6FFB254F0494002267C0 /* LevelsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FF9254F0494002267C0 /* LevelsVc.swift */; };
+		249E6FFC254F0494002267C0 /* LevelsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FF9254F0494002267C0 /* LevelsVc.swift */; };
+		249E6FFE254F04A5002267C0 /* QuestionsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FFD254F04A5002267C0 /* QuestionsVc.swift */; };
+		249E6FFF254F04A5002267C0 /* QuestionsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FFD254F04A5002267C0 /* QuestionsVc.swift */; };
+		249E7000254F04A5002267C0 /* QuestionsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E6FFD254F04A5002267C0 /* QuestionsVc.swift */; };
+		249E7002254F0542002267C0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E7001254F0542002267C0 /* LoginModel.swift */; };
+		249E7003254F0542002267C0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E7001254F0542002267C0 /* LoginModel.swift */; };
+		249E7004254F0542002267C0 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249E7001254F0542002267C0 /* LoginModel.swift */; };
+		249E7009254F1557002267C0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E7008254F1557002267C0 /* Home.storyboard */; };
+		249E700A254F1557002267C0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E7008254F1557002267C0 /* Home.storyboard */; };
+		249E700B254F1557002267C0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E7008254F1557002267C0 /* Home.storyboard */; };
+		249E700D254F156D002267C0 /* LoginSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E700C254F156D002267C0 /* LoginSignup.storyboard */; };
+		249E700E254F156D002267C0 /* LoginSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E700C254F156D002267C0 /* LoginSignup.storyboard */; };
+		249E700F254F156D002267C0 /* LoginSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249E700C254F156D002267C0 /* LoginSignup.storyboard */; };
+		2978BD4D26B77113007094C9 /* AppdelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BD4C26B77113007094C9 /* AppdelegateExtension.swift */; };
+		2978BD5026B772D0007094C9 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BD4F26B772D0007094C9 /* UserDefault.swift */; };
+		2978BD8E26BACBCC007094C9 /* DBManager+CreatePuzzleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BD8D26BACBCC007094C9 /* DBManager+CreatePuzzleData.swift */; };
+		2978BD9126BAD5BE007094C9 /* Multiplier+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BD8F26BAD5BE007094C9 /* Multiplier+CoreDataClass.swift */; };
+		2978BD9226BAD5BE007094C9 /* Multiplier+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BD9026BAD5BE007094C9 /* Multiplier+CoreDataProperties.swift */; };
+		2978BEB026BEBFAC007094C9 /* Level+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEAE26BEBFAC007094C9 /* Level+CoreDataClass.swift */; };
+		2978BEB126BEBFAC007094C9 /* Level+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEAF26BEBFAC007094C9 /* Level+CoreDataProperties.swift */; };
+		2978BEB926C008AC007094C9 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEB826C008AC007094C9 /* TimerManager.swift */; };
+		2978BEBB26C01A28007094C9 /* QuestionsVc+GameCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBA26C01A28007094C9 /* QuestionsVc+GameCalculation.swift */; };
+		2978BEBC26C01A28007094C9 /* QuestionsVc+GameCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBA26C01A28007094C9 /* QuestionsVc+GameCalculation.swift */; };
+		2978BEBD26C01A28007094C9 /* QuestionsVc+GameCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBA26C01A28007094C9 /* QuestionsVc+GameCalculation.swift */; };
+		2978BEC026C01F8A007094C9 /* QuestionModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBE26C01F8A007094C9 /* QuestionModel+CoreDataClass.swift */; };
+		2978BEC126C01F8A007094C9 /* QuestionModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBE26C01F8A007094C9 /* QuestionModel+CoreDataClass.swift */; };
+		2978BEC226C01F8A007094C9 /* QuestionModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBE26C01F8A007094C9 /* QuestionModel+CoreDataClass.swift */; };
+		2978BEC326C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBF26C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift */; };
+		2978BEC426C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBF26C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift */; };
+		2978BEC526C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978BEBF26C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift */; };
+		29B18FB82699E33800853AB9 /* CellConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B18FB72699E33800853AB9 /* CellConstants.swift */; };
+		29CE52B12688B2820095C7AF /* LevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE52AF2688B2820095C7AF /* LevelCell.swift */; };
+		29CE52B22688B2820095C7AF /* LevelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CE52B02688B2820095C7AF /* LevelCell.xib */; };
+		29CE52B42688B8970095C7AF /* LevelVc+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE52B32688B8970095C7AF /* LevelVc+UITableView.swift */; };
+		29CE52B72688BE080095C7AF /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE52B62688BE080095C7AF /* CommonUtils.swift */; };
+		29DD4165267639C000CF36E0 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD4163267639C000CF36E0 /* GlobalConstants.swift */; };
+		29DD4166267639C100CF36E0 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD4164267639C000CF36E0 /* DBManager.swift */; };
+		29DD416E267639E900CF36E0 /* MultiplicationOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD4167267639E800CF36E0 /* MultiplicationOperator.swift */; };
+		29DD416F267639E900CF36E0 /* AdditionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD4168267639E800CF36E0 /* AdditionOperator.swift */; };
+		29DD4170267639E900CF36E0 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD4169267639E800CF36E0 /* Operator.swift */; };
+		29DD4171267639E900CF36E0 /* LevelQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD416A267639E800CF36E0 /* LevelQuestion.swift */; };
+		29DD4172267639E900CF36E0 /* DivisionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD416B267639E800CF36E0 /* DivisionOperator.swift */; };
+		29DD4173267639E900CF36E0 /* OperatorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD416C267639E900CF36E0 /* OperatorLevel.swift */; };
+		29DD4174267639E900CF36E0 /* SubtractionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD416D267639E900CF36E0 /* SubtractionOperator.swift */; };
+		29DD418626763F3F00CF36E0 /* Addition+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD417626763F3F00CF36E0 /* Addition+CoreDataClass.swift */; };
+		29DD418726763F3F00CF36E0 /* Addition+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD417726763F3F00CF36E0 /* Addition+CoreDataProperties.swift */; };
+		29DD418A26763F3F00CF36E0 /* Subtraction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD417A26763F3F00CF36E0 /* Subtraction+CoreDataClass.swift */; };
+		29DD418B26763F3F00CF36E0 /* Subtraction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD417B26763F3F00CF36E0 /* Subtraction+CoreDataProperties.swift */; };
+		29DD418C26763F3F00CF36E0 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD417C26763F3F00CF36E0 /* User+CoreDataClass.swift */; };
+		29DD418D26763F3F00CF36E0 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD417D26763F3F00CF36E0 /* User+CoreDataProperties.swift */; };
+		29DD419226763F3F00CF36E0 /* Division+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD418226763F3F00CF36E0 /* Division+CoreDataClass.swift */; };
+		29DD419326763F3F00CF36E0 /* Division+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD418326763F3F00CF36E0 /* Division+CoreDataProperties.swift */; };
+		29DD419426763F3F00CF36E0 /* OperatorManager+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD418426763F3F00CF36E0 /* OperatorManager+CoreDataClass.swift */; };
+		29DD419526763F3F00CF36E0 /* OperatorManager+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD418526763F3F00CF36E0 /* OperatorManager+CoreDataProperties.swift */; };
+		FBC49675255F89DD00F3876C /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC49674255F89DD00F3876C /* SignUpModel.swift */; };
+		FBC49676255F8A1100F3876C /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC49674255F89DD00F3876C /* SignUpModel.swift */; };
+		FBC49677255F8A2800F3876C /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC49674255F89DD00F3876C /* SignUpModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		249E6FC7254B1999002267C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 249E6FA5254B1991002267C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249E6FAC254B1991002267C0;
+			remoteInfo = MathForKids;
+		};
+		249E6FD2254B1999002267C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 249E6FA5254B1991002267C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249E6FAC254B1991002267C0;
+			remoteInfo = MathForKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249E6FAD254B1991002267C0 /* MathForKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathForKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		249E6FB0254B1991002267C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		249E6FB4254B1991002267C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		249E6FBA254B1991002267C0 /* MathForKids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathForKids.xcdatamodel; sourceTree = "<group>"; };
+		249E6FBC254B1998002267C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		249E6FBF254B1998002267C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		249E6FC1254B1999002267C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249E6FC6254B1999002267C0 /* MathForKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathForKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		249E6FCA254B1999002267C0 /* MathForKidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathForKidsTests.swift; sourceTree = "<group>"; };
+		249E6FCC254B1999002267C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249E6FD1254B1999002267C0 /* MathForKidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathForKidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		249E6FD5254B1999002267C0 /* MathForKidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathForKidsUITests.swift; sourceTree = "<group>"; };
+		249E6FD7254B1999002267C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249E6FEB254F0419002267C0 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
+		249E6FEF254F0428002267C0 /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		249E6FF5254F0450002267C0 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
+		249E6FF9254F0494002267C0 /* LevelsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsVc.swift; sourceTree = "<group>"; };
+		249E6FFD254F04A5002267C0 /* QuestionsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsVc.swift; sourceTree = "<group>"; };
+		249E7001254F0542002267C0 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		249E7008254F1557002267C0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		249E700C254F156D002267C0 /* LoginSignup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginSignup.storyboard; sourceTree = "<group>"; };
+		2978BD4C26B77113007094C9 /* AppdelegateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppdelegateExtension.swift; sourceTree = "<group>"; };
+		2978BD4F26B772D0007094C9 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		2978BD8D26BACBCC007094C9 /* DBManager+CreatePuzzleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+CreatePuzzleData.swift"; sourceTree = "<group>"; };
+		2978BD8F26BAD5BE007094C9 /* Multiplier+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Multiplier+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		2978BD9026BAD5BE007094C9 /* Multiplier+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Multiplier+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		2978BEAE26BEBFAC007094C9 /* Level+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		2978BEAF26BEBFAC007094C9 /* Level+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		2978BEB826C008AC007094C9 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		2978BEBA26C01A28007094C9 /* QuestionsVc+GameCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionsVc+GameCalculation.swift"; sourceTree = "<group>"; };
+		2978BEBE26C01F8A007094C9 /* QuestionModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionModel+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		2978BEBF26C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionModel+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		29B18FB72699E33800853AB9 /* CellConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConstants.swift; sourceTree = "<group>"; };
+		29CE52AF2688B2820095C7AF /* LevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCell.swift; sourceTree = "<group>"; };
+		29CE52B02688B2820095C7AF /* LevelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCell.xib; sourceTree = "<group>"; };
+		29CE52B32688B8970095C7AF /* LevelVc+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LevelVc+UITableView.swift"; sourceTree = "<group>"; };
+		29CE52B62688BE080095C7AF /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		29DD4163267639C000CF36E0 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		29DD4164267639C000CF36E0 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		29DD4167267639E800CF36E0 /* MultiplicationOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationOperator.swift; sourceTree = "<group>"; };
+		29DD4168267639E800CF36E0 /* AdditionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionOperator.swift; sourceTree = "<group>"; };
+		29DD4169267639E800CF36E0 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		29DD416A267639E800CF36E0 /* LevelQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelQuestion.swift; sourceTree = "<group>"; };
+		29DD416B267639E800CF36E0 /* DivisionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisionOperator.swift; sourceTree = "<group>"; };
+		29DD416C267639E900CF36E0 /* OperatorLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorLevel.swift; sourceTree = "<group>"; };
+		29DD416D267639E900CF36E0 /* SubtractionOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractionOperator.swift; sourceTree = "<group>"; };
+		29DD417626763F3F00CF36E0 /* Addition+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Addition+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		29DD417726763F3F00CF36E0 /* Addition+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Addition+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		29DD417A26763F3F00CF36E0 /* Subtraction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subtraction+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		29DD417B26763F3F00CF36E0 /* Subtraction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subtraction+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		29DD417C26763F3F00CF36E0 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		29DD417D26763F3F00CF36E0 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		29DD418226763F3F00CF36E0 /* Division+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Division+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		29DD418326763F3F00CF36E0 /* Division+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Division+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		29DD418426763F3F00CF36E0 /* OperatorManager+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperatorManager+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		29DD418526763F3F00CF36E0 /* OperatorManager+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperatorManager+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FBC49674255F89DD00F3876C /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249E6FAA254B1991002267C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E6FC3254B1999002267C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E6FCE254B1999002267C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249E6FA4254B1991002267C0 = {
+			isa = PBXGroup;
+			children = (
+				29DD417526763E6A00CF36E0 /* CoreData */,
+				29DD4162267639C000CF36E0 /* LIBS */,
+				249E6FE7254F03BA002267C0 /* Controller */,
+				249E6FE8254F03BA002267C0 /* Model */,
+				249E6FE9254F03BA002267C0 /* View */,
+				249E6FAF254B1991002267C0 /* MathForKids */,
+				249E6FC9254B1999002267C0 /* MathForKidsTests */,
+				249E6FD4254B1999002267C0 /* MathForKidsUITests */,
+				249E6FAE254B1991002267C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		249E6FAE254B1991002267C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FAD254B1991002267C0 /* MathForKids.app */,
+				249E6FC6254B1999002267C0 /* MathForKidsTests.xctest */,
+				249E6FD1254B1999002267C0 /* MathForKidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249E6FAF254B1991002267C0 /* MathForKids */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FB0254B1991002267C0 /* AppDelegate.swift */,
+				249E6FB4254B1991002267C0 /* ViewController.swift */,
+				249E6FBC254B1998002267C0 /* Assets.xcassets */,
+				249E6FBE254B1998002267C0 /* LaunchScreen.storyboard */,
+				249E6FC1254B1999002267C0 /* Info.plist */,
+				249E6FB9254B1991002267C0 /* MathForKids.xcdatamodeld */,
+			);
+			path = MathForKids;
+			sourceTree = "<group>";
+		};
+		249E6FC9254B1999002267C0 /* MathForKidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FCA254B1999002267C0 /* MathForKidsTests.swift */,
+				249E6FCC254B1999002267C0 /* Info.plist */,
+			);
+			path = MathForKidsTests;
+			sourceTree = "<group>";
+		};
+		249E6FD4254B1999002267C0 /* MathForKidsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FD5254B1999002267C0 /* MathForKidsUITests.swift */,
+				249E6FD7254B1999002267C0 /* Info.plist */,
+			);
+			path = MathForKidsUITests;
+			sourceTree = "<group>";
+		};
+		249E6FE7254F03BA002267C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FF4254F043D002267C0 /* Dashboard */,
+				249E6FF3254F042F002267C0 /* LoginSignUp */,
+			);
+			name = Controller;
+			path = MathForKids/Controller;
+			sourceTree = "<group>";
+		};
+		249E6FE8254F03BA002267C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29DD4168267639E800CF36E0 /* AdditionOperator.swift */,
+				29DD416B267639E800CF36E0 /* DivisionOperator.swift */,
+				29DD416A267639E800CF36E0 /* LevelQuestion.swift */,
+				29DD4167267639E800CF36E0 /* MultiplicationOperator.swift */,
+				29DD4169267639E800CF36E0 /* Operator.swift */,
+				29DD416C267639E900CF36E0 /* OperatorLevel.swift */,
+				29DD416D267639E900CF36E0 /* SubtractionOperator.swift */,
+				249E7005254F09A5002267C0 /* LoginSignUp */,
+			);
+			name = Model;
+			path = MathForKids/Model;
+			sourceTree = "<group>";
+		};
+		249E6FE9254F03BA002267C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				249E7007254F153E002267C0 /* Dashboard */,
+				249E7006254F1530002267C0 /* LoginSignUp */,
+			);
+			name = View;
+			path = MathForKids/View;
+			sourceTree = "<group>";
+		};
+		249E6FF3254F042F002267C0 /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FEB254F0419002267C0 /* LoginVc.swift */,
+				249E6FEF254F0428002267C0 /* SignUpVc.swift */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+		249E6FF4254F043D002267C0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FF5254F0450002267C0 /* HomeVc.swift */,
+				29B18FB62699D98600853AB9 /* LevelsFamily */,
+				249E6FFD254F04A5002267C0 /* QuestionsVc.swift */,
+				2978BEBA26C01A28007094C9 /* QuestionsVc+GameCalculation.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		249E7005254F09A5002267C0 /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				249E7001254F0542002267C0 /* LoginModel.swift */,
+				FBC49674255F89DD00F3876C /* SignUpModel.swift */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+		249E7006254F1530002267C0 /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				249E700C254F156D002267C0 /* LoginSignup.storyboard */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+		249E7007254F153E002267C0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				29CE52AE2688B2260095C7AF /* CellForTableView */,
+				249E7008254F1557002267C0 /* Home.storyboard */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		2978BD4B26B770D3007094C9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2978BD4C26B77113007094C9 /* AppdelegateExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2978BD4E26B772A7007094C9 /* CurrentUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2978BD4F26B772D0007094C9 /* UserDefault.swift */,
+			);
+			path = CurrentUserInfo;
+			sourceTree = "<group>";
+		};
+		29B18FB62699D98600853AB9 /* LevelsFamily */ = {
+			isa = PBXGroup;
+			children = (
+				249E6FF9254F0494002267C0 /* LevelsVc.swift */,
+				29CE52B32688B8970095C7AF /* LevelVc+UITableView.swift */,
+			);
+			path = LevelsFamily;
+			sourceTree = "<group>";
+		};
+		29CE52AE2688B2260095C7AF /* CellForTableView */ = {
+			isa = PBXGroup;
+			children = (
+				29CE52AF2688B2820095C7AF /* LevelCell.swift */,
+				29CE52B02688B2820095C7AF /* LevelCell.xib */,
+			);
+			path = CellForTableView;
+			sourceTree = "<group>";
+		};
+		29CE52B52688BDF40095C7AF /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				29CE52B62688BE080095C7AF /* CommonUtils.swift */,
+				29B18FB72699E33800853AB9 /* CellConstants.swift */,
+				2978BEB826C008AC007094C9 /* TimerManager.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		29DD4162267639C000CF36E0 /* LIBS */ = {
+			isa = PBXGroup;
+			children = (
+				2978BD4E26B772A7007094C9 /* CurrentUserInfo */,
+				2978BD4B26B770D3007094C9 /* Extension */,
+				29DD4163267639C000CF36E0 /* GlobalConstants.swift */,
+				29CE52B52688BDF40095C7AF /* Global */,
+				29DD4164267639C000CF36E0 /* DBManager.swift */,
+				2978BD8D26BACBCC007094C9 /* DBManager+CreatePuzzleData.swift */,
+			);
+			name = LIBS;
+			path = MathForKids/LIBS;
+			sourceTree = "<group>";
+		};
+		29DD417526763E6A00CF36E0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2978BEBE26C01F8A007094C9 /* QuestionModel+CoreDataClass.swift */,
+				2978BEBF26C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift */,
+				2978BEAE26BEBFAC007094C9 /* Level+CoreDataClass.swift */,
+				2978BEAF26BEBFAC007094C9 /* Level+CoreDataProperties.swift */,
+				2978BD8F26BAD5BE007094C9 /* Multiplier+CoreDataClass.swift */,
+				2978BD9026BAD5BE007094C9 /* Multiplier+CoreDataProperties.swift */,
+				29DD417626763F3F00CF36E0 /* Addition+CoreDataClass.swift */,
+				29DD417726763F3F00CF36E0 /* Addition+CoreDataProperties.swift */,
+				29DD417A26763F3F00CF36E0 /* Subtraction+CoreDataClass.swift */,
+				29DD417B26763F3F00CF36E0 /* Subtraction+CoreDataProperties.swift */,
+				29DD417C26763F3F00CF36E0 /* User+CoreDataClass.swift */,
+				29DD417D26763F3F00CF36E0 /* User+CoreDataProperties.swift */,
+				29DD418226763F3F00CF36E0 /* Division+CoreDataClass.swift */,
+				29DD418326763F3F00CF36E0 /* Division+CoreDataProperties.swift */,
+				29DD418426763F3F00CF36E0 /* OperatorManager+CoreDataClass.swift */,
+				29DD418526763F3F00CF36E0 /* OperatorManager+CoreDataProperties.swift */,
+			);
+			name = CoreData;
+			path = MathForKids/CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		249E6FAC254B1991002267C0 /* MathForKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249E6FDA254B1999002267C0 /* Build configuration list for PBXNativeTarget "MathForKids" */;
+			buildPhases = (
+				249E6FA9254B1991002267C0 /* Sources */,
+				249E6FAA254B1991002267C0 /* Frameworks */,
+				249E6FAB254B1991002267C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathForKids;
+			productName = MathForKids;
+			productReference = 249E6FAD254B1991002267C0 /* MathForKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		249E6FC5254B1999002267C0 /* MathForKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249E6FDD254B1999002267C0 /* Build configuration list for PBXNativeTarget "MathForKidsTests" */;
+			buildPhases = (
+				249E6FC2254B1999002267C0 /* Sources */,
+				249E6FC3254B1999002267C0 /* Frameworks */,
+				249E6FC4254B1999002267C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249E6FC8254B1999002267C0 /* PBXTargetDependency */,
+			);
+			name = MathForKidsTests;
+			productName = MathForKidsTests;
+			productReference = 249E6FC6254B1999002267C0 /* MathForKidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		249E6FD0254B1999002267C0 /* MathForKidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249E6FE0254B1999002267C0 /* Build configuration list for PBXNativeTarget "MathForKidsUITests" */;
+			buildPhases = (
+				249E6FCD254B1999002267C0 /* Sources */,
+				249E6FCE254B1999002267C0 /* Frameworks */,
+				249E6FCF254B1999002267C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249E6FD3254B1999002267C0 /* PBXTargetDependency */,
+			);
+			name = MathForKidsUITests;
+			productName = MathForKidsUITests;
+			productReference = 249E6FD1254B1999002267C0 /* MathForKidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		249E6FA5254B1991002267C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Smriti;
+				TargetAttributes = {
+					249E6FAC254B1991002267C0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					249E6FC5254B1999002267C0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 249E6FAC254B1991002267C0;
+					};
+					249E6FD0254B1999002267C0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 249E6FAC254B1991002267C0;
+					};
+				};
+			};
+			buildConfigurationList = 249E6FA8254B1991002267C0 /* Build configuration list for PBXProject "MathForKids" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 249E6FA4254B1991002267C0;
+			productRefGroup = 249E6FAE254B1991002267C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				249E6FAC254B1991002267C0 /* MathForKids */,
+				249E6FC5254B1999002267C0 /* MathForKidsTests */,
+				249E6FD0254B1999002267C0 /* MathForKidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249E6FAB254B1991002267C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CE52B22688B2820095C7AF /* LevelCell.xib in Resources */,
+				249E700D254F156D002267C0 /* LoginSignup.storyboard in Resources */,
+				249E6FC0254B1998002267C0 /* LaunchScreen.storyboard in Resources */,
+				249E6FBD254B1998002267C0 /* Assets.xcassets in Resources */,
+				249E7009254F1557002267C0 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E6FC4254B1999002267C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249E700E254F156D002267C0 /* LoginSignup.storyboard in Resources */,
+				249E700A254F1557002267C0 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E6FCF254B1999002267C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249E700F254F156D002267C0 /* LoginSignup.storyboard in Resources */,
+				249E700B254F1557002267C0 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249E6FA9254B1991002267C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DD419226763F3F00CF36E0 /* Division+CoreDataClass.swift in Sources */,
+				29DD4172267639E900CF36E0 /* DivisionOperator.swift in Sources */,
+				2978BD5026B772D0007094C9 /* UserDefault.swift in Sources */,
+				249E6FF6254F0450002267C0 /* HomeVc.swift in Sources */,
+				2978BEBB26C01A28007094C9 /* QuestionsVc+GameCalculation.swift in Sources */,
+				249E6FFE254F04A5002267C0 /* QuestionsVc.swift in Sources */,
+				29DD419326763F3F00CF36E0 /* Division+CoreDataProperties.swift in Sources */,
+				249E6FBB254B1991002267C0 /* MathForKids.xcdatamodeld in Sources */,
+				29DD418A26763F3F00CF36E0 /* Subtraction+CoreDataClass.swift in Sources */,
+				2978BEB026BEBFAC007094C9 /* Level+CoreDataClass.swift in Sources */,
+				29DD419426763F3F00CF36E0 /* OperatorManager+CoreDataClass.swift in Sources */,
+				29DD416E267639E900CF36E0 /* MultiplicationOperator.swift in Sources */,
+				29DD4165267639C000CF36E0 /* GlobalConstants.swift in Sources */,
+				29DD4170267639E900CF36E0 /* Operator.swift in Sources */,
+				2978BEB926C008AC007094C9 /* TimerManager.swift in Sources */,
+				29DD418726763F3F00CF36E0 /* Addition+CoreDataProperties.swift in Sources */,
+				249E6FB5254B1991002267C0 /* ViewController.swift in Sources */,
+				249E6FB1254B1991002267C0 /* AppDelegate.swift in Sources */,
+				249E7002254F0542002267C0 /* LoginModel.swift in Sources */,
+				29DD4173267639E900CF36E0 /* OperatorLevel.swift in Sources */,
+				29CE52B72688BE080095C7AF /* CommonUtils.swift in Sources */,
+				29DD418626763F3F00CF36E0 /* Addition+CoreDataClass.swift in Sources */,
+				29DD419526763F3F00CF36E0 /* OperatorManager+CoreDataProperties.swift in Sources */,
+				29CE52B12688B2820095C7AF /* LevelCell.swift in Sources */,
+				2978BEB126BEBFAC007094C9 /* Level+CoreDataProperties.swift in Sources */,
+				29DD416F267639E900CF36E0 /* AdditionOperator.swift in Sources */,
+				2978BEC026C01F8A007094C9 /* QuestionModel+CoreDataClass.swift in Sources */,
+				29CE52B42688B8970095C7AF /* LevelVc+UITableView.swift in Sources */,
+				29DD4166267639C100CF36E0 /* DBManager.swift in Sources */,
+				2978BD9226BAD5BE007094C9 /* Multiplier+CoreDataProperties.swift in Sources */,
+				2978BD9126BAD5BE007094C9 /* Multiplier+CoreDataClass.swift in Sources */,
+				2978BD8E26BACBCC007094C9 /* DBManager+CreatePuzzleData.swift in Sources */,
+				29DD418C26763F3F00CF36E0 /* User+CoreDataClass.swift in Sources */,
+				29DD418D26763F3F00CF36E0 /* User+CoreDataProperties.swift in Sources */,
+				29DD418B26763F3F00CF36E0 /* Subtraction+CoreDataProperties.swift in Sources */,
+				29DD4174267639E900CF36E0 /* SubtractionOperator.swift in Sources */,
+				249E6FFA254F0494002267C0 /* LevelsVc.swift in Sources */,
+				2978BEC326C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift in Sources */,
+				FBC49675255F89DD00F3876C /* SignUpModel.swift in Sources */,
+				29DD4171267639E900CF36E0 /* LevelQuestion.swift in Sources */,
+				29B18FB82699E33800853AB9 /* CellConstants.swift in Sources */,
+				249E6FF0254F0428002267C0 /* SignUpVc.swift in Sources */,
+				249E6FEC254F0419002267C0 /* LoginVc.swift in Sources */,
+				2978BD4D26B77113007094C9 /* AppdelegateExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E6FC2254B1999002267C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249E6FED254F0419002267C0 /* LoginVc.swift in Sources */,
+				2978BEC126C01F8A007094C9 /* QuestionModel+CoreDataClass.swift in Sources */,
+				249E7003254F0542002267C0 /* LoginModel.swift in Sources */,
+				2978BEBC26C01A28007094C9 /* QuestionsVc+GameCalculation.swift in Sources */,
+				2978BEC426C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift in Sources */,
+				249E6FF7254F0450002267C0 /* HomeVc.swift in Sources */,
+				FBC49676255F8A1100F3876C /* SignUpModel.swift in Sources */,
+				249E6FF1254F0428002267C0 /* SignUpVc.swift in Sources */,
+				249E6FFB254F0494002267C0 /* LevelsVc.swift in Sources */,
+				249E6FFF254F04A5002267C0 /* QuestionsVc.swift in Sources */,
+				249E6FCB254B1999002267C0 /* MathForKidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E6FCD254B1999002267C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249E6FEE254F0419002267C0 /* LoginVc.swift in Sources */,
+				2978BEC226C01F8A007094C9 /* QuestionModel+CoreDataClass.swift in Sources */,
+				249E7004254F0542002267C0 /* LoginModel.swift in Sources */,
+				2978BEBD26C01A28007094C9 /* QuestionsVc+GameCalculation.swift in Sources */,
+				2978BEC526C01F8A007094C9 /* QuestionModel+CoreDataProperties.swift in Sources */,
+				249E6FF8254F0450002267C0 /* HomeVc.swift in Sources */,
+				FBC49677255F8A2800F3876C /* SignUpModel.swift in Sources */,
+				249E6FF2254F0428002267C0 /* SignUpVc.swift in Sources */,
+				249E6FFC254F0494002267C0 /* LevelsVc.swift in Sources */,
+				249E7000254F04A5002267C0 /* QuestionsVc.swift in Sources */,
+				249E6FD6254B1999002267C0 /* MathForKidsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249E6FC8254B1999002267C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249E6FAC254B1991002267C0 /* MathForKids */;
+			targetProxy = 249E6FC7254B1999002267C0 /* PBXContainerItemProxy */;
+		};
+		249E6FD3254B1999002267C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249E6FAC254B1991002267C0 /* MathForKids */;
+			targetProxy = 249E6FD2254B1999002267C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		249E6FBE254B1998002267C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249E6FBF254B1998002267C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249E6FD8254B1999002267C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		249E6FD9254B1999002267C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		249E6FDB254B1999002267C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathForKids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smriti.MathForKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		249E6FDC254B1999002267C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathForKids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smriti.MathForKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		249E6FDE254B1999002267C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathForKidsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smriti.MathForKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathForKids.app/MathForKids";
+			};
+			name = Debug;
+		};
+		249E6FDF254B1999002267C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathForKidsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smriti.MathForKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathForKids.app/MathForKids";
+			};
+			name = Release;
+		};
+		249E6FE1254B1999002267C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathForKidsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smriti.MathForKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathForKids;
+			};
+			name = Debug;
+		};
+		249E6FE2254B1999002267C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MathForKidsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smriti.MathForKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathForKids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249E6FA8254B1991002267C0 /* Build configuration list for PBXProject "MathForKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249E6FD8254B1999002267C0 /* Debug */,
+				249E6FD9254B1999002267C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249E6FDA254B1999002267C0 /* Build configuration list for PBXNativeTarget "MathForKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249E6FDB254B1999002267C0 /* Debug */,
+				249E6FDC254B1999002267C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249E6FDD254B1999002267C0 /* Build configuration list for PBXNativeTarget "MathForKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249E6FDE254B1999002267C0 /* Debug */,
+				249E6FDF254B1999002267C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249E6FE0254B1999002267C0 /* Build configuration list for PBXNativeTarget "MathForKidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249E6FE1254B1999002267C0 /* Debug */,
+				249E6FE2254B1999002267C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		249E6FB9254B1991002267C0 /* MathForKids.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				249E6FBA254B1991002267C0 /* MathForKids.xcdatamodel */,
+			);
+			currentVersion = 249E6FBA254B1991002267C0 /* MathForKids.xcdatamodel */;
+			path = MathForKids.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 249E6FA5254B1991002267C0 /* Project object */;
+}

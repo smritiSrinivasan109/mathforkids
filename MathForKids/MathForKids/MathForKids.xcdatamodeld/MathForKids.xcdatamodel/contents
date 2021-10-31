@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Addition" representedClassName=".Addition" syncable="YES">
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Level"/>
+    </entity>
+    <entity name="Division" representedClassName=".Division" syncable="YES">
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Level"/>
+    </entity>
+    <entity name="Level" representedClassName=".Level" syncable="YES">
+        <attribute name="isUnlocked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeInterval" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="QuestionModel"/>
+    </entity>
+    <entity name="Multiplier" representedClassName=".Multiplier" syncable="YES">
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Level"/>
+    </entity>
+    <entity name="OperatorManager" representedClassName=".OperatorManager" syncable="YES">
+        <relationship name="addition" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Addition"/>
+        <relationship name="division" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Division"/>
+        <relationship name="multiplier" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Multiplier"/>
+        <relationship name="subtraction" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Subtraction"/>
+    </entity>
+    <entity name="QuestionModel" representedClassName=".QuestionModel" syncable="YES">
+        <attribute name="isCorrect" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="questionTitle" optional="YES" attributeType="String"/>
+        <attribute name="result" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="x" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Subtraction" representedClassName=".Subtraction" syncable="YES">
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Level"/>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <relationship name="operatorManager" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="OperatorManager"/>
+    </entity>
+    <elements>
+        <element name="Addition" positionX="-9621" positionY="-1413" width="128" height="44"/>
+        <element name="Division" positionX="-9603" positionY="-1404" width="128" height="58"/>
+        <element name="Level" positionX="-9549" positionY="-1377" width="128" height="104"/>
+        <element name="Multiplier" positionX="-9585" positionY="-1395" width="128" height="44"/>
+        <element name="OperatorManager" positionX="-9639" positionY="-1422" width="128" height="103"/>
+        <element name="QuestionModel" positionX="-9648" positionY="-1485" width="128" height="104"/>
+        <element name="Subtraction" positionX="-9567" positionY="-1386" width="128" height="58"/>
+        <element name="User" positionX="-9648" positionY="-1458" width="128" height="133"/>
+    </elements>
+</model>
